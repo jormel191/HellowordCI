@@ -1,4 +1,7 @@
 node {
+    
+    agent { node { label 'aws' } }
+    
     stage('Clonacion Repositorio') {
         sh 'ls -ltrh'
         sh 'pwd'
