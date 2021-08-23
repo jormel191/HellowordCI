@@ -1,6 +1,4 @@
-pipeline {
-    
-    agent { node { label 'aws' } }
+nodo('slave_aws') {
     
     stage('Clonacion Repositorio') {
         sh 'ls -ltrh'
