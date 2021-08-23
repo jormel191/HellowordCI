@@ -1,4 +1,4 @@
-nodo('slave_aws') {
+nodo('slave_aws')  {
     
     stage('Clonacion Repositorio') {
         sh 'ls -ltrh'
